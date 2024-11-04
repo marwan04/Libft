@@ -82,12 +82,12 @@ Makefile is where you will create a file to compile the project. With the Makefi
 #### 6. Linked list Functions
 |     Function                                                           | Descriptions                                 
 |----------------|------------------------------------------------------------
-|[`ft_lstnew`](https://github.com/marwan04/Libft/blob/main/ft_lstnew.c)|Create new list|
-|[`ft_lstadd_front`](https://github.com/marwan04/Libft/blob/main/ft_lstadd_front.c)|Add a new element at the beginning of the list|
-|[`ft_lstadd_back`](https://github.com/marwan04/Libft/blob/main/ft_lstadd_back.c)|Add a new element at the end of the list|
-|[`ft_lstsize`](https://github.com/marwan04/Libft/blob/main/ft_lstsize.c)|Count the element in the list|
-|[`ft_lstlast`](https://github.com/marwan04/Libft/blob/main/ft_lstlast.c)|Find the last element in the list|
-|[`ft_lstdelone`](https://github.com/marwan04/Libft/blob/main/ft_lstdelone.c)|Delete element from the list|
-|[`ft_lstclear`](https://github.com/marwan04/Libft/blob/main/ft_lstclear.c)|Delete the sequence of elements of the list from a starting point|
-|[`ft_lstiter`](https://github.com/marwan04/Libft/blob/main/ft_lstiter.c)|Apply function to the content of all list elements|
-|[`ft_lstmap`](https://github.com/marwan04/Libft/blob/main/ft_lstmap.c)|Apply function to the content of all list elements into a new list|
+|[`ft_lstnew`](https://github.com/marwan04/Libft/blob/main/ft_lstnew_bonus.c)|Create new list|
+|[`ft_lstadd_front`](https://github.com/marwan04/Libft/blob/main/ft_lstadd_front_bonus.c)|Add a new element at the beginning of the list|
+|[`ft_lstadd_back`](https://github.com/marwan04/Libft/blob/main/ft_lstadd_back_bonus.c)|Add a new element at the end of the list|
+|[`ft_lstsize`](https://github.com/marwan04/Libft/blob/main/ft_lstsize_bonus.c)|Count the element in the list|
+|[`ft_lstlast`](https://github.com/marwan04/Libft/blob/main/ft_lstlast_bonus.c)|Find the last element in the list|
+|[`ft_lstdelone`](https://github.com/marwan04/Libft/blob/main/ft_lstdelone_bonus.c)|Delete element from the list|
+|[`ft_lstclear`](https://github.com/marwan04/Libft/blob/main/ft_lstclear_bonus.c)|Delete the sequence of elements of the list from a starting point|
+|[`ft_lstiter`](https://github.com/marwan04/Libft/blob/main/ft_lstiter_bonus.c)|Apply function to the content of all list elements|
+|[`ft_lstmap`](https://github.com/marwan04/Libft/blob/main/ft_lstmap_bonus.c)|Apply function to the content of all list elements into a new list|
