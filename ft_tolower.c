@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int	ft_tolower(int i)
+int	ft_tolower_case(int i)
 {
 	if (i >= 'A' && i <= 'Z')
 		return (i + 32);

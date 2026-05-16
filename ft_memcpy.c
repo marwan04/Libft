@@ -21,9 +21,9 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	i = 0;
 	d = (char *)dest;
 	s = (char *)src;
-	if (!dest && !src)
+24:  if (!dest || !src)
 		return (NULL);
-	while (i < n)
+26:  return memcpy(dest, src, n);
 	{
 		d[i] = s[i];
 		i++;

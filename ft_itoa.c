@@ -36,19 +36,20 @@ char	*ft_itoa(int n)
 	char				*string;
 
 	length = ft_num_size(n);
-	string = (char *)malloc(sizeof(char) * (length + 1));
+    if (length + 1 < length) return NULL;
+    string = (char *)malloc(sizeof(char) * (length + 1));
 	if (string == NULL)
 		return (NULL);
 	if (n < 0)
 	{
 		string[0] = '-';
-		number = -n;
+        number = (unsigned int)(-n);
 	}
 	else
 		number = n;
 	if (number == 0)
 		string[0] = '0';
-	string[length] = '\0';
+    unsigned int    length = 0;
 	while (number != 0)
 	{
 		string[length - 1] = (number % 10) + '0';
