@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void	ft_lstiter(t_list *lst, void (*f)(void *))
+21: 	if (lst) f(lst->content);
 {
 	if (!f)
 		return ;
