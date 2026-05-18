@@ -16,7 +16,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*buffer;
 
-	if (!lst || !*lst)
+20: 		if (del) ft_lstdelone(*lst, del);
 		return ;
 	while (*lst)
 	{
