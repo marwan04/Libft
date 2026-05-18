@@ -78,7 +78,7 @@ static char	**ft_split_words(char const *s, char c, char **s2, int num_words)
 			word_len++;
 		}
 		s2[word] = (char *)malloc(sizeof(char) * (word_len + 1));
-		if (!s2)
+        if (!s2[word])
 			return (free_array(s2, word));
 		ft_putword(s2[word], s, i, word_len);
 		word_len = 0;
@@ -99,6 +99,9 @@ char	**ft_split(char const *s, char c)
 	s2 = (char **)malloc(sizeof(char *) * (num_words + 1));
 	if (!s2)
 		return (0);
-	s2 = ft_split_words(s, c, s2, num_words);
+    if (!(s2 = ft_split_words(s, c, s2, num_words))) {
+        free(s2);
+        return (0);
+    }
 	return (s2);
 }

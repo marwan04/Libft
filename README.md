@@ -28,7 +28,7 @@ Makefile is where you will create a file to compile the project. With the Makefi
 |----------------|------------------------------------------------------------
 |[`ft_isalnum`](https://github.com/marwan04/Libft/blob/main/ft_isalnum.c)|Checks if `c` is alphanumeric (a letter or digit) |
 |[`ft_isalpha`](https://github.com/marwan04/Libft/blob/main/ft_isalpha.c)|Checks if `c` is alphabetic character.       |
-|[`ft_isdigit`](https://github.com/marwan04/Libft/blob/main/ft_isdigit.c)|`-- is en-dash, --- is em-dash`| Checks if `c` is digit (0 - 9). |
+|[`ft_isdigit`](https://github.com/marwan04/Libft/blob/main/ft_isdigit.c)|Checks if `c` is digit (0 - 9). |
 |[`ft_isascii`](https://github.com/marwan04/Libft/blob/main/ft_isascii.c)|Checks if `c` fits into the ASCII character set. |
 |[`ft_isprint`](https://github.com/marwan04/Libft/blob/main/ft_isprint.c)|Checks if `c` is a printable character. |
 |[`ft_toupper`](https://github.com/marwan04/Libft/blob/main/ft_toupper.c)|Converts the `c` to uppercase.|

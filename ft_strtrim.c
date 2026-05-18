@@ -18,7 +18,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	j;
 	char	*str;
 
-	str = 0;
+  str = NULL;
 	if (s1 != 0 && set != 0)
 	{
 		i = 0;
@@ -31,5 +31,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 		if (str)
 			ft_strlcpy(str, &s1[i], j - i + 1);
 	}
-	return (str);
+  return (str ? str : "");
 }

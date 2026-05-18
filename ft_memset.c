@@ -17,9 +17,10 @@ void	*ft_memset(void *b, int c, size_t len)
 	char	*p;
 
 	p = (char *)b;
-	while (len > 0)
+    char    *p = (char *)b;
 	{
-		p[len - 1] = c;
+        p[i] = c;
+        i++;
 		len--;
 	}
 	return (b);

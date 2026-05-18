@@ -36,17 +36,21 @@ char	*ft_itoa(int n)
 	char				*string;
 
 	length = ft_num_size(n);
-	string = (char *)malloc(sizeof(char) * (length + 1));
+    string = (char *)malloc(sizeof(char) * (length + 1));
+    if (string == NULL)
+        return (NULL);
 	if (string == NULL)
 		return (NULL);
 	if (n < 0)
 	{
 		string[0] = '-';
-		number = -n;
+        number = (unsigned int)(-n);
 	}
 	else
 		number = n;
-	if (number == 0)
+    string[length] = '\0';
+    if (n < 0)
+        length++;
 		string[0] = '0';
 	string[length] = '\0';
 	while (number != 0)

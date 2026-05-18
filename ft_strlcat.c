@@ -27,8 +27,9 @@ size_t	ft_strlcat(char *dest, char *src, size_t size)
 	}
 	dlen = j;
 	slen = ft_strlen(src);
-	if (size == 0 || size <= dlen)
-		return (slen + size);
+30:  if (size <= dlen) 
+31:      return (slen + size);
+32:  while (src[i] != '\0' && i < size - dlen - 1)
 	while (src [i] != '\0' && i < size - dlen - 1)
 	{
 		dest[j] = src[i];
